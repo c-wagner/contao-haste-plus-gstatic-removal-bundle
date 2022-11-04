@@ -1,0 +1,23 @@
+{
+    "name": "c-wagner/contao-haste-plus-gstatic-removal-bundle",
+    "description": "Removes GStatic out of Contao Haste Plus",
+    "type": "contao-bundle",
+    "require": {
+        "contao/core-bundle": "^4.4"
+    },
+    "license": "LGPL-3.0-or-later",
+    "autoload": {
+        "psr-4": {
+            "CWagner\\ContaoHastePlusGstaticRemovalBundle\\": "src/"
+        }
+    },
+    "extra": {
+        "contao-manager-plugin": "CWagner\\ContaoHastePlusGstaticRemovalBundle\\ContaoManager\\Plugin"
+    },
+    "authors": [
+        {
+            "name": "Christopher Wagner",
+            "email": "christoper-wagner@t-online.de"
+        }
+    ]
+}
